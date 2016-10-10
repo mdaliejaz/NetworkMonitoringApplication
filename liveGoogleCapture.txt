@@ -1,0 +1,417 @@
+$ sudo ./mydump -s google
+Listening on device: en0
+
+
+Timestamp: Wed May  4 18:28:20 2016
+Source MAC Address: ac:bc:32:79:8a:2d
+Destination MAC Address: d0:7e:28:c9:96:a3
+Ether Type: 0x800
+Packet Length: 453
+Payload Size: 387
+Source IP: 10.1.230.65
+Destination IP: 172.217.2.14
+Protocol: TCP
+Source port: 58301
+Destination port: 80
+TCP Flags: TH_ACK
+
+Payload:
+47 45 54 20 2f 20 48 54  54 50 2f 31 2e 31 0d 0a    GET / HTTP/1.1..
+48 6f 73 74 3a 20 67 6f  6f 67 6c 65 2e 63 6f 6d    Host: google.com
+0d 0a 43 6f 6e 6e 65 63  74 69 6f 6e 3a 20 6b 65    ..Connection: ke
+65 70 2d 61 6c 69 76 65  0d 0a 41 63 63 65 70 74    ep-alive..Accept
+3a 20 74 65 78 74 2f 68  74 6d 6c 2c 61 70 70 6c    : text/html,appl
+69 63 61 74 69 6f 6e 2f  78 68 74 6d 6c 2b 78 6d    ication/xhtml+xm
+6c 2c 61 70 70 6c 69 63  61 74 69 6f 6e 2f 78 6d    l,application/xm
+6c 3b 71 3d 30 2e 39 2c  69 6d 61 67 65 2f 77 65    l;q=0.9,image/we
+62 70 2c 2a 2f 2a 3b 71  3d 30 2e 38 0d 0a 55 70    bp,*/*;q=0.8..Up
+67 72 61 64 65 2d 49 6e  73 65 63 75 72 65 2d 52    grade-Insecure-R
+65 71 75 65 73 74 73 3a  20 31 0d 0a 55 73 65 72    equests: 1..User
+2d 41 67 65 6e 74 3a 20  4d 6f 7a 69 6c 6c 61 2f    -Agent: Mozilla/
+35 2e 30 20 28 4d 61 63  69 6e 74 6f 73 68 3b 20    5.0 (Macintosh;
+49 6e 74 65 6c 20 4d 61  63 20 4f 53 20 58 20 31    Intel Mac OS X 1
+30 5f 31 31 5f 34 29 20  41 70 70 6c 65 57 65 62    0_11_4) AppleWeb
+4b 69 74 2f 35 33 37 2e  33 36 20 28 4b 48 54 4d    Kit/537.36 (KHTM
+4c 2c 20 6c 69 6b 65 20  47 65 63 6b 6f 29 20 43    L, like Gecko) C
+68 72 6f 6d 65 2f 35 30  2e 30 2e 32 36 36 31 2e    hrome/50.0.2661.
+39 34 20 53 61 66 61 72  69 2f 35 33 37 2e 33 36    94 Safari/537.36
+0d 0a 44 4e 54 3a 20 31  0d 0a 41 63 63 65 70 74    ..DNT: 1..Accept
+2d 45 6e 63 6f 64 69 6e  67 3a 20 67 7a 69 70 2c    -Encoding: gzip,
+20 64 65 66 6c 61 74 65  2c 20 73 64 63 68 0d 0a     deflate, sdch..
+41 63 63 65 70 74 2d 4c  61 6e 67 75 61 67 65 3a    Accept-Language:
+20 65 6e 2d 55 53 2c 65  6e 3b 71 3d 30 2e 38 0d     en-US,en;q=0.8.
+0a 0d 0a                                            ...
+
+
+#################### NEXT PACKET ####################
+
+Timestamp: Wed May  4 18:28:20 2016
+Source MAC Address: d0:7e:28:c9:96:a3
+Destination MAC Address: ac:bc:32:79:8a:2d
+Ether Type: 0x800
+Packet Length: 606
+Payload Size: 540
+Source IP: 172.217.2.14
+Destination IP: 10.1.230.65
+Protocol: TCP
+Source port: 80
+Destination port: 58301
+TCP Flags: TH_ACK
+
+Payload:
+48 54 54 50 2f 31 2e 31  20 33 30 31 20 4d 6f 76    HTTP/1.1 301 Mov
+65 64 20 50 65 72 6d 61  6e 65 6e 74 6c 79 0d 0a    ed Permanently..
+4c 6f 63 61 74 69 6f 6e  3a 20 68 74 74 70 3a 2f    Location: http:/
+2f 77 77 77 2e 67 6f 6f  67 6c 65 2e 63 6f 6d 2f    /www.google.com/
+0d 0a 43 6f 6e 74 65 6e  74 2d 54 79 70 65 3a 20    ..Content-Type:
+74 65 78 74 2f 68 74 6d  6c 3b 20 63 68 61 72 73    text/html; chars
+65 74 3d 55 54 46 2d 38  0d 0a 44 61 74 65 3a 20    et=UTF-8..Date:
+57 65 64 2c 20 30 34 20  4d 61 79 20 32 30 31 36    Wed, 04 May 2016
+20 32 32 3a 32 38 3a 32  30 20 47 4d 54 0d 0a 45     22:28:20 GMT..E
+78 70 69 72 65 73 3a 20  46 72 69 2c 20 30 33 20    xpires: Fri, 03
+4a 75 6e 20 32 30 31 36  20 32 32 3a 32 38 3a 32    Jun 2016 22:28:2
+30 20 47 4d 54 0d 0a 43  61 63 68 65 2d 43 6f 6e    0 GMT..Cache-Con
+74 72 6f 6c 3a 20 70 75  62 6c 69 63 2c 20 6d 61    trol: public, ma
+78 2d 61 67 65 3d 32 35  39 32 30 30 30 0d 0a 53    x-age=2592000..S
+65 72 76 65 72 3a 20 67  77 73 0d 0a 43 6f 6e 74    erver: gws..Cont
+65 6e 74 2d 4c 65 6e 67  74 68 3a 20 32 31 39 0d    ent-Length: 219.
+0a 58 2d 58 53 53 2d 50  72 6f 74 65 63 74 69 6f    .X-XSS-Protectio
+6e 3a 20 31 3b 20 6d 6f  64 65 3d 62 6c 6f 63 6b    n: 1; mode=block
+0d 0a 58 2d 46 72 61 6d  65 2d 4f 70 74 69 6f 6e    ..X-Frame-Option
+73 3a 20 53 41 4d 45 4f  52 49 47 49 4e 0d 0a 0d    s: SAMEORIGIN...
+0a 3c 48 54 4d 4c 3e 3c  48 45 41 44 3e 3c 6d 65    .<HTML><HEAD><me
+74 61 20 68 74 74 70 2d  65 71 75 69 76 3d 22 63    ta http-equiv="c
+6f 6e 74 65 6e 74 2d 74  79 70 65 22 20 63 6f 6e    ontent-type" con
+74 65 6e 74 3d 22 74 65  78 74 2f 68 74 6d 6c 3b    tent="text/html;
+63 68 61 72 73 65 74 3d  75 74 66 2d 38 22 3e 0a    charset=utf-8">.
+3c 54 49 54 4c 45 3e 33  30 31 20 4d 6f 76 65 64    <TITLE>301 Moved
+3c 2f 54 49 54 4c 45 3e  3c 2f 48 45 41 44 3e 3c    </TITLE></HEAD><
+42 4f 44 59 3e 0a 3c 48  31 3e 33 30 31 20 4d 6f    BODY>.<H1>301 Mo
+76 65 64 3c 2f 48 31 3e  0a 54 68 65 20 64 6f 63    ved</H1>.The doc
+75 6d 65 6e 74 20 68 61  73 20 6d 6f 76 65 64 0a    ument has moved.
+3c 41 20 48 52 45 46 3d  22 68 74 74 70 3a 2f 2f    <A HREF="http://
+77 77 77 2e 67 6f 6f 67  6c 65 2e 63 6f 6d 2f 22    www.google.com/"
+3e 68 65 72 65 3c 2f 41  3e 2e 0d 0a 3c 2f 42 4f    >here</A>...</BO
+44 59 3e 3c 2f 48 54 4d  4c 3e 0d 0a                DY></HTML>..
+
+
+#################### NEXT PACKET ####################
+
+Timestamp: Wed May  4 18:28:20 2016
+Source MAC Address: ac:bc:32:79:8a:2d
+Destination MAC Address: d0:7e:28:c9:96:a3
+Ether Type: 0x800
+Packet Length: 457
+Payload Size: 391
+Source IP: 10.1.230.65
+Destination IP: 172.217.4.36
+Protocol: TCP
+Source port: 58302
+Destination port: 80
+TCP Flags: TH_ACK
+
+Payload:
+47 45 54 20 2f 20 48 54  54 50 2f 31 2e 31 0d 0a    GET / HTTP/1.1..
+48 6f 73 74 3a 20 77 77  77 2e 67 6f 6f 67 6c 65    Host: www.google
+2e 63 6f 6d 0d 0a 43 6f  6e 6e 65 63 74 69 6f 6e    .com..Connection
+3a 20 6b 65 65 70 2d 61  6c 69 76 65 0d 0a 41 63    : keep-alive..Ac
+63 65 70 74 3a 20 74 65  78 74 2f 68 74 6d 6c 2c    cept: text/html,
+61 70 70 6c 69 63 61 74  69 6f 6e 2f 78 68 74 6d    application/xhtm
+6c 2b 78 6d 6c 2c 61 70  70 6c 69 63 61 74 69 6f    l+xml,applicatio
+6e 2f 78 6d 6c 3b 71 3d  30 2e 39 2c 69 6d 61 67    n/xml;q=0.9,imag
+65 2f 77 65 62 70 2c 2a  2f 2a 3b 71 3d 30 2e 38    e/webp,*/*;q=0.8
+0d 0a 55 70 67 72 61 64  65 2d 49 6e 73 65 63 75    ..Upgrade-Insecu
+72 65 2d 52 65 71 75 65  73 74 73 3a 20 31 0d 0a    re-Requests: 1..
+55 73 65 72 2d 41 67 65  6e 74 3a 20 4d 6f 7a 69    User-Agent: Mozi
+6c 6c 61 2f 35 2e 30 20  28 4d 61 63 69 6e 74 6f    lla/5.0 (Macinto
+73 68 3b 20 49 6e 74 65  6c 20 4d 61 63 20 4f 53    sh; Intel Mac OS
+20 58 20 31 30 5f 31 31  5f 34 29 20 41 70 70 6c     X 10_11_4) Appl
+65 57 65 62 4b 69 74 2f  35 33 37 2e 33 36 20 28    eWebKit/537.36 (
+4b 48 54 4d 4c 2c 20 6c  69 6b 65 20 47 65 63 6b    KHTML, like Geck
+6f 29 20 43 68 72 6f 6d  65 2f 35 30 2e 30 2e 32    o) Chrome/50.0.2
+36 36 31 2e 39 34 20 53  61 66 61 72 69 2f 35 33    661.94 Safari/53
+37 2e 33 36 0d 0a 44 4e  54 3a 20 31 0d 0a 41 63    7.36..DNT: 1..Ac
+63 65 70 74 2d 45 6e 63  6f 64 69 6e 67 3a 20 67    cept-Encoding: g
+7a 69 70 2c 20 64 65 66  6c 61 74 65 2c 20 73 64    zip, deflate, sd
+63 68 0d 0a 41 63 63 65  70 74 2d 4c 61 6e 67 75    ch..Accept-Langu
+61 67 65 3a 20 65 6e 2d  55 53 2c 65 6e 3b 71 3d    age: en-US,en;q=
+30 2e 38 0d 0a 0d 0a                                0.8....
+
+
+#################### NEXT PACKET ####################
+
+Timestamp: Wed May  4 18:28:20 2016
+Source MAC Address: d0:7e:28:c9:96:a3
+Destination MAC Address: ac:bc:32:79:8a:2d
+Ether Type: 0x800
+Packet Length: 904
+Payload Size: 838
+Source IP: 172.217.4.36
+Destination IP: 10.1.230.65
+Protocol: TCP
+Source port: 80
+Destination port: 58302
+TCP Flags: TH_ACK
+
+Payload:
+48 54 54 50 2f 31 2e 31  20 33 30 32 20 46 6f 75    HTTP/1.1 302 Fou
+6e 64 0d 0a 4c 6f 63 61  74 69 6f 6e 3a 20 68 74    nd..Location: ht
+74 70 73 3a 2f 2f 77 77  77 2e 67 6f 6f 67 6c 65    tps://www.google
+2e 63 6f 6d 2f 3f 67 77  73 5f 72 64 3d 73 73 6c    .com/?gws_rd=ssl
+0d 0a 43 61 63 68 65 2d  43 6f 6e 74 72 6f 6c 3a    ..Cache-Control:
+20 70 72 69 76 61 74 65  0d 0a 43 6f 6e 74 65 6e     private..Conten
+74 2d 54 79 70 65 3a 20  74 65 78 74 2f 68 74 6d    t-Type: text/htm
+6c 3b 20 63 68 61 72 73  65 74 3d 55 54 46 2d 38    l; charset=UTF-8
+0d 0a 50 33 50 3a 20 43  50 3d 22 54 68 69 73 20    ..P3P: CP="This
+69 73 20 6e 6f 74 20 61  20 50 33 50 20 70 6f 6c    is not a P3P pol
+69 63 79 21 20 53 65 65  20 68 74 74 70 73 3a 2f    icy! See https:/
+2f 77 77 77 2e 67 6f 6f  67 6c 65 2e 63 6f 6d 2f    /www.google.com/
+73 75 70 70 6f 72 74 2f  61 63 63 6f 75 6e 74 73    support/accounts
+2f 61 6e 73 77 65 72 2f  31 35 31 36 35 37 3f 68    /answer/151657?h
+6c 3d 65 6e 20 66 6f 72  20 6d 6f 72 65 20 69 6e    l=en for more in
+66 6f 2e 22 0d 0a 44 61  74 65 3a 20 57 65 64 2c    fo."..Date: Wed,
+20 30 34 20 4d 61 79 20  32 30 31 36 20 32 32 3a     04 May 2016 22:
+32 38 3a 32 30 20 47 4d  54 0d 0a 53 65 72 76 65    28:20 GMT..Serve
+72 3a 20 67 77 73 0d 0a  43 6f 6e 74 65 6e 74 2d    r: gws..Content-
+4c 65 6e 67 74 68 3a 20  32 33 31 0d 0a 58 2d 58    Length: 231..X-X
+53 53 2d 50 72 6f 74 65  63 74 69 6f 6e 3a 20 31    SS-Protection: 1
+3b 20 6d 6f 64 65 3d 62  6c 6f 63 6b 0d 0a 58 2d    ; mode=block..X-
+46 72 61 6d 65 2d 4f 70  74 69 6f 6e 73 3a 20 53    Frame-Options: S
+41 4d 45 4f 52 49 47 49  4e 0d 0a 53 65 74 2d 43    AMEORIGIN..Set-C
+6f 6f 6b 69 65 3a 20 4e  49 44 3d 37 39 3d 70 57    ookie: NID=79=pW
+43 4f 42 67 62 49 48 6c  52 31 51 6d 4a 45 46 2d    COBgbIHlR1QmJEF-
+62 6f 62 66 59 44 52 63  4a 69 32 45 30 72 4e 76    bobfYDRcJi2E0rNv
+79 73 38 62 76 39 67 44  78 73 71 71 53 6b 61 6b    ys8bv9gDxsqqSkak
+65 4f 4c 34 38 2d 5f 69  33 78 62 6c 39 6c 44 79    eOL48-_i3xbl9lDy
+5f 31 62 4c 79 38 57 75  51 4b 73 66 4c 45 45 70    _1bLy8WuQKsfLEEp
+52 7a 36 75 54 50 42 4f  45 6d 71 70 50 42 49 70    Rz6uTPBOEmqpPBIp
+44 46 32 37 43 30 67 38  46 33 44 45 52 61 63 53    DF27C0g8F3DERacS
+4c 58 50 42 45 42 6c 69  39 6a 68 67 5a 70 3b 20    LXPBEBli9jhgZp;
+65 78 70 69 72 65 73 3d  54 68 75 2c 20 30 33 2d    expires=Thu, 03-
+4e 6f 76 2d 32 30 31 36  20 32 32 3a 32 38 3a 32    Nov-2016 22:28:2
+30 20 47 4d 54 3b 20 70  61 74 68 3d 2f 3b 20 64    0 GMT; path=/; d
+6f 6d 61 69 6e 3d 2e 67  6f 6f 67 6c 65 2e 63 6f    omain=.google.co
+6d 3b 20 48 74 74 70 4f  6e 6c 79 0d 0a 0d 0a 3c    m; HttpOnly....<
+48 54 4d 4c 3e 3c 48 45  41 44 3e 3c 6d 65 74 61    HTML><HEAD><meta
+20 68 74 74 70 2d 65 71  75 69 76 3d 22 63 6f 6e     http-equiv="con
+74 65 6e 74 2d 74 79 70  65 22 20 63 6f 6e 74 65    tent-type" conte
+6e 74 3d 22 74 65 78 74  2f 68 74 6d 6c 3b 63 68    nt="text/html;ch
+61 72 73 65 74 3d 75 74  66 2d 38 22 3e 0a 3c 54    arset=utf-8">.<T
+49 54 4c 45 3e 33 30 32  20 4d 6f 76 65 64 3c 2f    ITLE>302 Moved</
+54 49 54 4c 45 3e 3c 2f  48 45 41 44 3e 3c 42 4f    TITLE></HEAD><BO
+44 59 3e 0a 3c 48 31 3e  33 30 32 20 4d 6f 76 65    DY>.<H1>302 Move
+64 3c 2f 48 31 3e 0a 54  68 65 20 64 6f 63 75 6d    d</H1>.The docum
+65 6e 74 20 68 61 73 20  6d 6f 76 65 64 0a 3c 41    ent has moved.<A
+20 48 52 45 46 3d 22 68  74 74 70 73 3a 2f 2f 77     HREF="https://w
+77 77 2e 67 6f 6f 67 6c  65 2e 63 6f 6d 2f 3f 67    ww.google.com/?g
+77 73 5f 72 64 3d 73 73  6c 22 3e 68 65 72 65 3c    ws_rd=ssl">here<
+2f 41 3e 2e 0d 0a 3c 2f  42 4f 44 59 3e 3c 2f 48    /A>...</BODY></H
+54 4d 4c 3e 0d 0a                                   TML>..
+
+
+#################### NEXT PACKET ####################
+
+Timestamp: Wed May  4 18:28:20 2016
+Source MAC Address: d0:7e:28:c9:96:a3
+Destination MAC Address: ac:bc:32:79:8a:2d
+Ether Type: 0x800
+Packet Length: 1440
+Payload Size: 1374
+Source IP: 172.217.4.35
+Destination IP: 10.1.230.65
+Protocol: TCP
+Source port: 443
+Destination port: 58304
+TCP Flags: TH_ACK
+
+Payload:
+61 74 69 6f 6e 2e 63 6f  6d 82 0b 2a 2e 79 74 69    ation.com..*.yti
+6d 67 2e 63 6f 6d 82 1a  61 6e 64 72 6f 69 64 2e    mg.com..android.
+63 6c 69 65 6e 74 73 2e  67 6f 6f 67 6c 65 2e 63    clients.google.c
+6f 6d 82 0b 61 6e 64 72  6f 69 64 2e 63 6f 6d 82    om..android.com.
+04 67 2e 63 6f 82 06 67  6f 6f 2e 67 6c 82 14 67    .g.co..goo.gl..g
+6f 6f 67 6c 65 2d 61 6e  61 6c 79 74 69 63 73 2e    oogle-analytics.
+63 6f 6d 82 0a 67 6f 6f  67 6c 65 2e 63 6f 6d 82    com..google.com.
+12 67 6f 6f 67 6c 65 63  6f 6d 6d 65 72 63 65 2e    .googlecommerce.
+63 6f 6d 82 0a 75 72 63  68 69 6e 2e 63 6f 6d 82    com..urchin.com.
+0a 77 77 77 2e 67 6f 6f  2e 67 6c 82 08 79 6f 75    .www.goo.gl..you
+74 75 2e 62 65 82 0b 79  6f 75 74 75 62 65 2e 63    tu.be..youtube.c
+6f 6d 82 14 79 6f 75 74  75 62 65 65 64 75 63 61    om..youtubeeduca
+74 69 6f 6e 2e 63 6f 6d  30 0b 06 03 55 1d 0f 04    tion.com0...U...
+04 03 02 07 80 30 68 06  08 2b 06 01 05 05 07 01    .....0h..+......
+01 04 5c 30 5a 30 2b 06  08 2b 06 01 05 05 07 30    ..\0Z0+..+.....0
+02 86 1f 68 74 74 70 3a  2f 2f 70 6b 69 2e 67 6f    ...http://pki.go
+6f 67 6c 65 2e 63 6f 6d  2f 47 49 41 47 32 2e 63    ogle.com/GIAG2.c
+72 74 30 2b 06 08 2b 06  01 05 05 07 30 01 86 1f    rt0+..+.....0...
+68 74 74 70 3a 2f 2f 63  6c 69 65 6e 74 73 31 2e    http://clients1.
+67 6f 6f 67 6c 65 2e 63  6f 6d 2f 6f 63 73 70 30    google.com/ocsp0
+1d 06 03 55 1d 0e 04 16  04 14 c8 25 22 ba 8a 04    ...U.......%"...
+37 07 d9 9e 62 b6 6f 1d  e9 16 77 60 cd a2 30 0c    7...b.o...w`..0.
+06 03 55 1d 13 01 01 ff  04 02 30 00 30 1f 06 03    ..U.......0.0...
+55 1d 23 04 18 30 16 80  14 4a dd 06 16 1b bc f6    U.#..0...J......
+68 b5 76 f5 81 b6 bb 62  1a ba 5a 81 2f 30 21 06    h.v....b..Z./0!.
+03 55 1d 20 04 1a 30 18  30 0c 06 0a 2b 06 01 04    .U. ..0.0...+...
+01 d6 79 02 05 01 30 08  06 06 67 81 0c 01 02 02    ..y...0...g.....
+30 30 06 03 55 1d 1f 04  29 30 27 30 25 a0 23 a0    00..U...)0'0%.#.
+21 86 1f 68 74 74 70 3a  2f 2f 70 6b 69 2e 67 6f    !..http://pki.go
+6f 67 6c 65 2e 63 6f 6d  2f 47 49 41 47 32 2e 63    ogle.com/GIAG2.c
+72 6c 30 0d 06 09 2a 86  48 86 f7 0d 01 01 0b 05    rl0...*.H.......
+00 03 82 01 01 00 72 f1  41 65 ea 39 3c b1 bf 96    ......r.Ae.9<...
+7a 1d b4 9d 29 c2 08 2d  1f ef 0c 97 23 53 4b ff    z...)..-....#SK.
+4f 54 bb 30 3a 64 dd 52  a3 25 b9 c0 1b f6 b4 82    OT.0:d.R.%......
+36 d8 de 90 81 46 ac e8  d3 08 e2 7f 03 ff 72 1e    6....F........r.
+58 54 dd 62 4d 30 cc ed  7c 96 71 2a b1 83 20 11    XT.bM0..|.q*.. .
+0d 9a a7 24 1b 80 8b ba  f4 53 8e e2 77 82 0f 5d    ...$.....S..w..]
+81 b1 85 70 d5 b2 8f 7e  51 d2 f1 08 49 1a f1 7a    ...p...~Q...I..z
+e2 dd 67 97 57 a6 5a 26  6c 58 f4 9e 46 76 ac b7    ..g.W.Z&lX..Fv..
+e6 fa b3 04 7c 2e ce cf  a6 d3 c3 85 c2 34 1f 59    ....|........4.Y
+96 a0 ed 41 10 bb 3a 93  95 c1 6c e0 ec e8 1d 88    ...A..:...l.....
+f8 03 a6 4b 06 de 64 ea  22 d8 22 11 58 5b 4b 9e    ...K..d.".".X[K.
+cb 21 41 5b d1 02 47 ec  2e 78 d8 bf ac ab c7 13    .!A[..G..x......
+80 67 17 4c b6 c3 b0 a1  74 1e 48 84 b3 94 7d b7    .g.L....t.H...}.
+26 24 83 f9 0a 2b 0c 42  9e 41 4f 9c e1 de 50 8b    &$...+.B.AO...P.
+3d 39 aa f7 88 1d 6c 2b  55 d6 20 41 1d 35 41 55    =9....l+U. A.5AU
+5f f5 b0 d5 91 ee ff 73  db a2 0c a2 af 46 c3 51    _......s.....F.Q
+8c 17 bf b6 fd 12 00 03  f4 30 82 03 f0 30 82 02    .........0...0..
+d8 a0 03 02 01 02 02 03  02 3a 83 30 0d 06 09 2a    .........:.0...*
+86 48 86 f7 0d 01 01 0b  05 00 30 42 31 0b 30 09    .H........0B1.0.
+06 03 55 04 06 13 02 55  53 31 16 30 14 06 03 55    ..U....US1.0...U
+04 0a 13 0d 47 65 6f 54  72 75 73 74 20 49 6e 63    ....GeoTrust Inc
+2e 31 1b 30 19 06 03 55  04 03 13 12 47 65 6f 54    .1.0...U....GeoT
+72 75 73 74 20 47 6c 6f  62 61 6c 20 43 41 30 1e    rust Global CA0.
+17 0d 31 33 30 34 30 35  31 35 31 35 35 36 5a 17    ..130405151556Z.
+0d 31 36 31 32 33 31 32  33 35 39 35 39 5a 30 49    .161231235959Z0I
+31 0b 30 09 06 03 55 04  06 13 02 55 53 31 13 30    1.0...U....US1.0
+11 06 03 55 04 0a 13 0a  47 6f 6f 67 6c 65 20 49    ...U....Google I
+6e 63 31 25 30 23 06 03  55 04 03 13 1c 47 6f 6f    nc1%0#..U....Goo
+67 6c 65 20 49 6e 74 65  72 6e 65 74 20 41 00 00    gle Internet A..
+84 77 2a 57 37 e7 05 00  42 00 00 00 42 00 00 00    .w*W7...B...B...
+12 00 d0 7e 28 c9 96 a3  ac bc 32 79 8a 2d 08 00    ...~(.....2y.-..
+45 00 00 34 62 a0 40 00  40 06 36 e5 0a 01 e6 41    E..4b.@.@.6....A
+ac d9 04 23 e3 c0 01 bb  85 9c 4e 8e 43 5a d8 cd    ...#......N.CZ..
+80 10 0f c4 9a a1 00 00  01 01 08 0a 32 28 b2 f3    ............2(..
+57 a0 18 8e 84 77 2a 57  07 ea 05 00 00 04 00 00    W....w*W........
+86 05 00 00 12 00 ac bc  32 79 8a 2d d0 7e 28 c9    ........2y.-.~(.
+96 a3 08 00 45 00 05 78  cc 9e 00 00 33 06 14 a3    ....E..x....3...
+ac d9 04 23 0a 01 e6 41  01 bb e3 c0 43 5a d8 cd    ...#...A....CZ..
+85 9c 4e 8e 80 18 01 55  cf fa 00 00 01 01 08 0a    ..N....U........
+57 a0 18 8e 32 28 b2 a2  07 30 01 86 12 68 74 74    W...2(...0...htt
+70 3a 2f 2f 67 2e 73 79  6d 63 64 2e 63 6f 6d 30    p://g.symcd.com0
+12 06 03 55 1d 13 01 01  ff 04 08 30 06 01 01 ff    ...U.......0....
+02 01 00 30 35 06 03 55  1d 1f 04 2e 30 2c 30 2a    ...05..U....0,0*
+a0 28 a0 26 86 24 68 74  74 70 3a 2f 2f 67 2e 73    .(.&.$http://g.s
+79 6d 63 62 2e 63 6f 6d  2f 63 72 6c 73 2f 67 74    ymcb.com/crls/gt
+67 6c 6f 62 61 6c 2e 63  72 6c 30 17 06 03 55 1d    global.crl0...U.
+20 04 10 30 0e 30 0c 06  0a 2b 06 01 04 01 d6 79     ..0.0...+.....y
+02 05 01 30 0d 06 09 2a  86 48 86 f7 0d 01 01 0b    ...0...*.H......
+05 00 03 82 01 01 00 aa  fa a9 20 cd 6a 67 83 ed    .......... .jg..
+5e d4 7e de 1d c4 7f e0  25 06 00 c5 24 fb a9 c8    ^.~.....%...$...
+2d 6d 7e de 9d 82 65 2c  81 63 34 66 3e e9 52 c2    -m~...e,.c4f>.R.
+08 b4 cb 2f f7 5f 99 3a  6a 9c 50 7a 85 05 8c 7d    .../._.:j.Pz...}
+d1 2a 48 84 d3 09 6c 7c  c2 cd 35 9f f3 82 ee 52    .*H...l|..5....R
+de 68 5f e4 00 8a 17 20  96 f7 29 8d 9a 4d cb a8    .h_.... ..)..M..
+de 86 c8 0d 6f 56 87 03  7d 03 3f dc fa 79          ....oV..}.?..y
+
+
+#################### NEXT PACKET ####################
+
+Timestamp: Wed May  4 18:28:20 2016
+Source MAC Address: d0:7e:28:c9:96:a3
+Destination MAC Address: ac:bc:32:79:8a:2d
+Ether Type: 0x800
+Packet Length: 1440
+Payload Size: 1374
+Source IP: 172.217.4.46
+Destination IP: 10.1.230.65
+Protocol: TCP
+Source port: 443
+Destination port: 58305
+TCP Flags: TH_ACK
+
+Payload:
+61 74 69 6f 6e 2e 63 6f  6d 82 0b 2a 2e 79 74 69    ation.com..*.yti
+6d 67 2e 63 6f 6d 82 1a  61 6e 64 72 6f 69 64 2e    mg.com..android.
+63 6c 69 65 6e 74 73 2e  67 6f 6f 67 6c 65 2e 63    clients.google.c
+6f 6d 82 0b 61 6e 64 72  6f 69 64 2e 63 6f 6d 82    om..android.com.
+04 67 2e 63 6f 82 06 67  6f 6f 2e 67 6c 82 14 67    .g.co..goo.gl..g
+6f 6f 67 6c 65 2d 61 6e  61 6c 79 74 69 63 73 2e    oogle-analytics.
+63 6f 6d 82 0a 67 6f 6f  67 6c 65 2e 63 6f 6d 82    com..google.com.
+12 67 6f 6f 67 6c 65 63  6f 6d 6d 65 72 63 65 2e    .googlecommerce.
+63 6f 6d 82 0a 75 72 63  68 69 6e 2e 63 6f 6d 82    com..urchin.com.
+0a 77 77 77 2e 67 6f 6f  2e 67 6c 82 08 79 6f 75    .www.goo.gl..you
+74 75 2e 62 65 82 0b 79  6f 75 74 75 62 65 2e 63    tu.be..youtube.c
+6f 6d 82 14 79 6f 75 74  75 62 65 65 64 75 63 61    om..youtubeeduca
+74 69 6f 6e 2e 63 6f 6d  30 0b 06 03 55 1d 0f 04    tion.com0...U...
+04 03 02 07 80 30 68 06  08 2b 06 01 05 05 07 01    .....0h..+......
+01 04 5c 30 5a 30 2b 06  08 2b 06 01 05 05 07 30    ..\0Z0+..+.....0
+02 86 1f 68 74 74 70 3a  2f 2f 70 6b 69 2e 67 6f    ...http://pki.go
+6f 67 6c 65 2e 63 6f 6d  2f 47 49 41 47 32 2e 63    ogle.com/GIAG2.c
+72 74 30 2b 06 08 2b 06  01 05 05 07 30 01 86 1f    rt0+..+.....0...
+68 74 74 70 3a 2f 2f 63  6c 69 65 6e 74 73 31 2e    http://clients1.
+67 6f 6f 67 6c 65 2e 63  6f 6d 2f 6f 63 73 70 30    google.com/ocsp0
+1d 06 03 55 1d 0e 04 16  04 14 c8 25 22 ba 8a 04    ...U.......%"...
+37 07 d9 9e 62 b6 6f 1d  e9 16 77 60 cd a2 30 0c    7...b.o...w`..0.
+06 03 55 1d 13 01 01 ff  04 02 30 00 30 1f 06 03    ..U.......0.0...
+55 1d 23 04 18 30 16 80  14 4a dd 06 16 1b bc f6    U.#..0...J......
+68 b5 76 f5 81 b6 bb 62  1a ba 5a 81 2f 30 21 06    h.v....b..Z./0!.
+03 55 1d 20 04 1a 30 18  30 0c 06 0a 2b 06 01 04    .U. ..0.0...+...
+01 d6 79 02 05 01 30 08  06 06 67 81 0c 01 02 02    ..y...0...g.....
+30 30 06 03 55 1d 1f 04  29 30 27 30 25 a0 23 a0    00..U...)0'0%.#.
+21 86 1f 68 74 74 70 3a  2f 2f 70 6b 69 2e 67 6f    !..http://pki.go
+6f 67 6c 65 2e 63 6f 6d  2f 47 49 41 47 32 2e 63    ogle.com/GIAG2.c
+72 6c 30 0d 06 09 2a 86  48 86 f7 0d 01 01 0b 05    rl0...*.H.......
+00 03 82 01 01 00 72 f1  41 65 ea 39 3c b1 bf 96    ......r.Ae.9<...
+7a 1d b4 9d 29 c2 08 2d  1f ef 0c 97 23 53 4b ff    z...)..-....#SK.
+4f 54 bb 30 3a 64 dd 52  a3 25 b9 c0 1b f6 b4 82    OT.0:d.R.%......
+36 d8 de 90 81 46 ac e8  d3 08 e2 7f 03 ff 72 1e    6....F........r.
+58 54 dd 62 4d 30 cc ed  7c 96 71 2a b1 83 20 11    XT.bM0..|.q*.. .
+0d 9a a7 24 1b 80 8b ba  f4 53 8e e2 77 82 0f 5d    ...$.....S..w..]
+81 b1 85 70 d5 b2 8f 7e  51 d2 f1 08 49 1a f1 7a    ...p...~Q...I..z
+e2 dd 67 97 57 a6 5a 26  6c 58 f4 9e 46 76 ac b7    ..g.W.Z&lX..Fv..
+e6 fa b3 04 7c 2e ce cf  a6 d3 c3 85 c2 34 1f 59    ....|........4.Y
+96 a0 ed 41 10 bb 3a 93  95 c1 6c e0 ec e8 1d 88    ...A..:...l.....
+f8 03 a6 4b 06 de 64 ea  22 d8 22 11 58 5b 4b 9e    ...K..d.".".X[K.
+cb 21 41 5b d1 02 47 ec  2e 78 d8 bf ac ab c7 13    .!A[..G..x......
+80 67 17 4c b6 c3 b0 a1  74 1e 48 84 b3 94 7d b7    .g.L....t.H...}.
+26 24 83 f9 0a 2b 0c 42  9e 41 4f 9c e1 de 50 8b    &$...+.B.AO...P.
+3d 39 aa f7 88 1d 6c 2b  55 d6 20 41 1d 35 41 55    =9....l+U. A.5AU
+5f f5 b0 d5 91 ee ff 73  db a2 0c a2 af 46 c3 51    _......s.....F.Q
+8c 17 bf b6 fd 12 00 03  f4 30 82 03 f0 30 82 02    .........0...0..
+d8 a0 03 02 01 02 02 03  02 3a 83 30 0d 06 09 2a    .........:.0...*
+86 48 86 f7 0d 01 01 0b  05 00 30 42 31 0b 30 09    .H........0B1.0.
+06 03 55 04 06 13 02 55  53 31 16 30 14 06 03 55    ..U....US1.0...U
+04 0a 13 0d 47 65 6f 54  72 75 73 74 20 49 6e 63    ....GeoTrust Inc
+2e 31 1b 30 19 06 03 55  04 03 13 12 47 65 6f 54    .1.0...U....GeoT
+72 75 73 74 20 47 6c 6f  62 61 6c 20 43 41 30 1e    rust Global CA0.
+17 0d 31 33 30 34 30 35  31 35 31 35 35 36 5a 17    ..130405151556Z.
+0d 31 36 31 32 33 31 32  33 35 39 35 39 5a 30 49    .161231235959Z0I
+31 0b 30 09 06 03 55 04  06 13 02 55 53 31 13 30    1.0...U....US1.0
+11 06 03 55 04 0a 13 0a  47 6f 6f 67 6c 65 20 49    ...U....Google I
+6e 63 31 25 30 23 06 03  55 04 03 13 1c 47 6f 6f    nc1%0#..U....Goo
+67 6c 65 20 49 6e 74 65  72 6e 65 74 20 41 03 ff    gle Internet A..
+84 77 2a 57 43 84 0c 00  42 00 00 00 42 00 00 00    .w*WC...B...B...
+12 00 d0 7e 28 c9 96 a3  ac bc 32 79 8a 2d 08 00    ...~(.....2y.-..
+45 00 00 34 45 69 40 00  40 06 54 11 0a 01 e6 41    E..4Ei@.@.T....A
+ac d9 04 2e e3 c1 01 bb  df 98 fc c2 c2 06 97 e3    ................
+80 10 0f c4 54 a5 00 00  01 01 08 0a 32 28 b4 97    ....T.......2(..
+57 a0 16 e7 84 77 2a 57  34 85 0c 00 00 04 00 00    W....w*W4.......
+86 05 00 00 12 00 ac bc  32 79 8a 2d d0 7e 28 c9    ........2y.-.~(.
+96 a3 08 00 45 00 05 78  21 a7 00 00 33 06 bf 8f    ....E..x!...3...
+ac d9 04 2e 0a 01 e6 41  01 bb e3 c1 c2 06 97 e3    .......A........
+df 98 fc c2 80 18 01 55  6d 28 00 00 01 01 08 0a    .......Um(......
+57 a0 16 e7 32 28 b4 92  07 30 01 86 12 68 74 74    W...2(...0...htt
+70 3a 2f 2f 67 2e 73 79  6d 63 64 2e 63 6f 6d 30    p://g.symcd.com0
+12 06 03 55 1d 13 01 01  ff 04 08 30 06 01 01 ff    ...U.......0....
+02 01 00 30 35 06 03 55  1d 1f 04 2e 30 2c 30 2a    ...05..U....0,0*
+a0 28 a0 26 86 24 68 74  74 70 3a 2f 2f 67 2e 73    .(.&.$http://g.s
+79 6d 63 62 2e 63 6f 6d  2f 63 72 6c 73 2f 67 74    ymcb.com/crls/gt
+67 6c 6f 62 61 6c 2e 63  72 6c 30 17 06 03 55 1d    global.crl0...U.
+20 04 10 30 0e 30 0c 06  0a 2b 06 01 04 01 d6 79     ..0.0...+.....y
+02 05 01 30 0d 06 09 2a  86 48 86 f7 0d 01 01 0b    ...0...*.H......
+05 00 03 82 01 01 00 aa  fa a9 20 cd 6a 67 83 ed    .......... .jg..
+5e d4 7e de 1d c4 7f e0  25 06 00 c5 24 fb a9 c8    ^.~.....%...$...
+2d 6d 7e de 9d 82 65 2c  81 63 34 66 3e e9 52 c2    -m~...e,.c4f>.R.
+08 b4 cb 2f f7 5f 99 3a  6a 9c 50 7a 85 05 8c 7d    .../._.:j.Pz...}
+d1 2a 48 84 d3 09 6c 7c  c2 cd 35 9f f3 82 ee 52    .*H...l|..5....R
+de 68 5f e4 00 8a 17 20  96 f7 29 8d 9a 4d cb a8    .h_.... ..)..M..
+de 86 c8 0d 6f 56 87 03  7d 03 3f dc fa 79          ....oV..}.?..y
